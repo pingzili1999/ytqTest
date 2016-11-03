@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.risenbsy.project"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.risenbsy.project.ui.sample.SampleActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+
+        <!-- demo测试使用activity-->
+        <activity android:name=".viewdemo.WeatherLineViewActivity"/>
+        <activity android:name=".viewdemo.Moji24Activity"/>
+    </application>
+
+</manifest>
